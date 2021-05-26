@@ -25,7 +25,7 @@
             
             <p><b>Add personal info</b></p>
                     
-           <form action="<%=request.getContextPath()%>/servlet" method="post">
+            <form action="<%=request.getContextPath()%>/servlet" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" name="name"/><br>
                 <label for="surname">Surname:</label><br>
@@ -34,15 +34,6 @@
                 <input type="text" name="age"><br><br>
                 <input type="submit" value="Ok"/>                
             </form>
-            
-                <h2> Create resource </h2>    
-                <form action="<%=request.getContextPath()%>/resource" method="post">
-                    <label for="given">First name:</label><br>
-                    <input type="text" name="given" placeholder="Enter given name"/><br><br>
-                    <label for="family">Last name:</label><br>
-                    <input type="text" name="family" placeholder="Enter family name"><br><br>
-                    <input type="submit" value="Ok"/>
-                </form>    
             
     </body>
 </html>
