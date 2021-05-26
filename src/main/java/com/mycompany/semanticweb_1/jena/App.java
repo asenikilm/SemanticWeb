@@ -22,7 +22,7 @@ import org.apache.jena.vocabulary.VCARD;
 
 /**
  *
- * @author Gradoboev
+ * @author Mlik
  */
 public class App {
 

@@ -23,7 +23,7 @@ import static org.apache.jena.shacl.vocabulary.SHACL.path;
 
 /**
  *
- * @author Gradoboev
+ * @author Mlik
  */
 @WebServlet(name = "CreateResource", urlPatterns = {"/resource"})
 public class CreateResource extends HttpServlet {

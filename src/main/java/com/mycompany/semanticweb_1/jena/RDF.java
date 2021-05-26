@@ -10,7 +10,7 @@ import org.apache.jena.rdf.model.ModelFactory;
 
 /**
  *
- * @author Gradoboev
+ * @author Mlik
  */
 public class RDF {
     
